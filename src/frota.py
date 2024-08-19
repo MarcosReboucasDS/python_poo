@@ -2,9 +2,12 @@ class Carro:
     modelo : str
     marca : str
     cor : str
-    odometro : 0.0
-    motor_on : False
+    odometro = 0.0
+    motor_on = False
 
+    #GIOVANNA QUEEEEN
+
+    #Chama a própria classe que começa
     def __init__(self, modelo : str, marca : str, cor : str,
                        odometro : float, motor : bool):
         self.modelo = modelo
