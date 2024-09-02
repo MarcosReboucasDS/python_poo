@@ -52,7 +52,7 @@ class Urna:
 
     def __str__(self):
         info = (f'Urna da seção {self.__secao}, zona {self.__zona}\n'
-                f'Mesario {self.mesario}\n')
+                f'Mesario {self.mesario}, Votos {self.votos}\n')
 
 
 
