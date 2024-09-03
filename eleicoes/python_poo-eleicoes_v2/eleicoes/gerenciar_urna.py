@@ -25,6 +25,6 @@ def votar(urna : Urna):
     print(eleitor)
     print("Pode votar!")
     print("===========")
-    voto = int(input("Digite o numero do candidato: "))
+    voto = int(input("Digite o numero do candidato, caso seu voto seja BRANCO, digite 0: "))
     urna.registrar_voto(eleitor, voto)
 
